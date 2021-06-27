@@ -6,7 +6,7 @@ import {
   Description,
   Footer,
   Custom,
-} from "./components/tampilan";
+} from "../components/tampilan";
 import Link from "next/link";
 
 export default function Home() {
