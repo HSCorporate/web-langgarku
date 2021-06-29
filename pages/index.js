@@ -19,6 +19,19 @@ export default function Home() {
       </Head>
 
       <Main>
+        <div>
+          <ul>
+            <li>
+              <Link href="/about">About</Link>
+            </li>
+            <li>
+              <Link href="/contoh">Contoh</Link>
+            </li>
+            <li>
+              <Link href="/contoh/blog">Blog</Link>
+            </li>
+          </ul>
+        </div>
         <Title>
           Welcome to <Link href="https://nextjs.org">langgarku.id</Link>
         </Title>
