@@ -8,6 +8,7 @@ import {
   Custom,
 } from "../components/tampilan";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -25,10 +26,7 @@ export default function Home() {
               <Link href="/about">About</Link>
             </li>
             <li>
-              <Link href="/contoh">Contoh</Link>
-            </li>
-            <li>
-              <Link href="/contoh/blog">Blog</Link>
+              <Link href="/blog">Blog</Link>
             </li>
           </ul>
         </div>
@@ -38,6 +36,17 @@ export default function Home() {
         <Description>Project membuat aplikasi langgarku.id</Description>
         <Custom>Edit</Custom>
       </Main>
+      <Image src="/vercel.svg" width="400" height="400" />
+      <Image
+        src="https://avatars.githubusercontent.com/u/53314006?v=4"
+        width="300"
+        height="500"
+      />
+      <Image
+        src="https://pbs.twimg.com/profile_images/1331805142593589249/S00bozLg_400x400.jpg"
+        width="500"
+        height="500"
+      />
 
       <Footer>
         <p>on progress 🚀</p>

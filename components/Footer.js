@@ -1,11 +1,12 @@
 import React from "react";
+import { Footer } from "./tampilan";
 
-const Footer = () => {
+const FooterPage = () => {
   return (
-    <div>
+    <Footer>
       <p>Ini Footer 2021.</p>
-    </div>
+    </Footer>
   );
 };
 
-export default Footer;
+export default FooterPage;
